@@ -18,7 +18,7 @@ class Fic:
         # else:
         self.website = Website.other
 
-    def download(self):
+    def get_mobi(self):
         pass
 
     def get_data(self):
