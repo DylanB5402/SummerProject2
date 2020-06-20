@@ -7,21 +7,15 @@ class Fic:
         self.url = url
         self.title = ''
         self.author = ''
-        # if "archive" in url:
-        #     self.website = Website.ao3
-        # elif "fanfiction" in url:
-        #     self.website = Website.ffn
-        # elif "space" in url:
-        #     self.website = Website.sb
-        # elif "sufficient" in url:
-        #     self.website = Website.sv
-        # else:
         self.website = Website.other
 
-    def get_mobi(self):
+    def download_mobi(self):
         pass
 
     def get_data(self):
+        pass
+
+    def scrape_title(self):
         pass
 
 class Website(Enum):
