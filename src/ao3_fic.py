@@ -15,7 +15,7 @@ class AO3Fic(Fic):
         self.webpage = BeautifulSoup(requests.get(self.url).content, "lxml")
 
 
-    def get_mobi(self):
+    def download_mobi(self):
         self.scrape_title()
         self.scrape_download_url()
         r = requests.get(self.download_url, allow_redirects=True)
@@ -32,7 +32,7 @@ class AO3Fic(Fic):
             if "mobi" in x:
                 self.download_url = "https://archiveofourown.org" + x[x.index("/downloads") : x.index(">MOBI") - 1]
 
-fanfic = AO3Fic('https://archiveofourown.org/works/746517')
+# fanfic = AO3Fic('https://archiveofourown.org/works/746517')
 # fanfic = AO3Fic('https://archiveofourown.org/works/24781507')
-print(fanfic.download_url)
-fanfic.get_mobi()
+# print(fanfic.download_url)
+# fanfic.get_mobi()
