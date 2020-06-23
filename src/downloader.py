@@ -5,7 +5,8 @@ from email import encoders
 import smtplib
 import password
 import os
-import time
+
+
 def send_fic(url : str, email_address : str, password : str, kindle_email):
     port = 587
     if "archive" in url:
@@ -34,7 +35,6 @@ def send_fic(url : str, email_address : str, password : str, kindle_email):
     text = msg.as_string()
     email.sendmail(email_address, kindle_email, text)
     email.quit()
-    # time.sleep(0.01)
     attachment.close()
     os.remove(fic.file_name)
 

@@ -1,7 +1,4 @@
 from fic import Fic, Website
-
-from lxml import html
-import bs4
 from bs4 import BeautifulSoup
 import requests
 
