@@ -7,6 +7,7 @@ class Fic:
         self.url = url
         self.title = ''
         self.author = ''
+        self.file_name = ''
         self.website = Website.other
 
     def download_mobi(self):

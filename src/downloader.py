@@ -3,8 +3,9 @@ from ao3_fic import AO3Fic
 from email.mime import multipart, base
 from email import encoders
 import smtplib
-
-
+import password
+import os
+import time
 def send_fic(url : str, email_address : str, password : str, kindle_email):
     port = 587
     if "archive" in url:
@@ -20,7 +21,23 @@ def send_fic(url : str, email_address : str, password : str, kindle_email):
     email.starttls()
     # password = input('Password:')
     email.login(email_address, password)
+    msg = multipart.MIMEMultipart()
+    msg['From'] = email_address
+    msg['To'] = kindle_email
+    msg['Subject'] = ''
+    attachment = open(fic.file_name, 'rb')
+    p = base.MIMEBase('application', 'octet-stream')
+    p.set_payload(attachment.read())
+    encoders.encode_base64(p)
+    p.add_header('Content-Disposition', "attachment; filename= %s" % fic.file_name)
+    msg.attach(p)
+    text = msg.as_string()
+    email.sendmail(email_address, kindle_email, text)
+    email.quit()
+    # time.sleep(0.01)
+    attachment.close()
+    os.remove(fic.file_name)
 
-send_fic('https://archiveofourown.org/works/746517','dylanb5402@gmail.com','Shadow5402', 'dylanb5402@kindle.com')
+send_fic('https://archiveofourown.org/works/746517', password.my_email, password.password, password.kindle_email)
 
 

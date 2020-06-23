@@ -19,7 +19,8 @@ class AO3Fic(Fic):
         self.scrape_title()
         self.scrape_download_url()
         r = requests.get(self.download_url, allow_redirects=True)
-        open(self.title + '.mobi', 'wb').write(r.content)
+        self.file_name = self.title + '.mobi'
+        open(self.file_name, 'wb').write(r.content)
 
     def scrape_title(self):
         header = self.webpage.find("h2", class_ = "title heading")
