@@ -4,8 +4,6 @@ from email import encoders
 from email.mime import multipart, base
 
 import password
-from ao3_fic import AO3Fic
-from fic import Fic
 import fanficfare_downloader
 
 def send_fic(url : str, email_address : str, password : str, kindle_email):

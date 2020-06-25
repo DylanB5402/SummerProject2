@@ -2,8 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5b7529-ea89-4eed-bc77-c4909ac9bbcb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fanficfare_downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/FanFicFare-3.20.0-py3.6.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/HtmlTagStack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_adastrafanficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_adultfanfictionorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_alternatehistorycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_andromedawebcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_archivehpfanfictalkcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_archiveofourownorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_archiveskyehawkecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_asexstoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ashwindersycophanthexcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_asianfanficscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_bdsmlibrarycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_bloodshedversecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_bloodtiesfancom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_buffygilescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_chaossycophanthexcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_chosentwofanficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_csiforensicscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_darksolaceorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_deandamagecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_deepinmysoulnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_destinysgatewaycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_dokugacom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_dracoandginnycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_efictionestelielde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_efpfanficnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_erosnsapphosycophanthexcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanficauthorsnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanficcastletvnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanfichu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanficsme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanfictionjunkiesde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanfictionnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fanfiktionde.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ficbooknet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fictionalleyorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fictionhuntcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fictionmaniatv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fictionpadcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fictionpresscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ficwadcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fimfictionnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_finestoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_fireflyfansnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_forumquestionablequestingcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_forumsspacebattlescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_forumssufficientvelocitycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_gluttonyfictioncom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_gravitytalescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_harrypotterfanfictioncom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_hentaifoundrycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_hlfictionnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_hpfanficarchivecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_iketernalnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_imagineeficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_inkbunnynet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_itcouldhappennet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ksarchivecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_lcfanficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_libraryofmoriacom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_literotica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_looselugscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_lotrgficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_lumossycophanthexcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_masseffect2in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_mcstoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_mediaminerorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_merlinficdtwinscouk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_midnightwhispers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_mttjustoncenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_mugglenetfanfictioncom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_naiceanilmenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_narutoficorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ncisfictioncom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_nhamagicalworldsus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ninelivesarchivecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_novelonlinefullcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_noveltrovecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_occlumencysycophanthexcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_phoenixsongnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_ponyfictionarchivenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_potionsandsnitches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_potterficscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_potterheadsanonymouscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_pretendercentrecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_qafficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_quotevcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_royalroadcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_samandjacknet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_scarvesandcoffeenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_scifistoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sebklainenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sheppardweircom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_shriftweborgbfa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_silmarillionwritersguildorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sinfuldreamscomunicornfic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sinfuldreamscomwhisperedmuse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sinfuldreamscomwickedtemptation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_siyecouk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_spikeluvercom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_squidgeorgpeja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_starskyhutcharchivenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_starslibrarynet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_storiesofardacom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_storiesonlinenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_sugarquillnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_swiorgru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_swordborderlineangelcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_tasteofpoisoninkubationnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_tenhawkpresents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_tgstorytimecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_thedelphicexpansecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_thehookupzonenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_themaplebookshelf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_themasquenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_thepetulantpoetesscom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_thundercatsfansorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_tomparisdormcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_trekfanfictionnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_trekiverseorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_tthfanficorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_twilightednet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_valentchambercom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_voracity2eficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_walkingtheplankorg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wattpadcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_webnovelcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_whoficcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wolverineandroguecom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wraithbaitcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wuxiaworldco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wuxiaworldcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wwwaneroticstorycom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wwwgiantessworldnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wwwlushstoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wwwnovelallcom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/adapter_wwwutopiastoriescom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/base_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/base_efiction_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/base_xenforo2forum_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/adapters/base_xenforoforum_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/configurable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/dateutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/defaults.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/epubutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/example.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/geturls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/gziphttp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/htmlcleanup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/htmlheuristics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/mobi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/mobihtml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/story.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/translit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/base_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/writer_epub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/writer_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/writer_mobi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/writer_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text-2020.1.16.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html2text/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/AUTHORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib-1.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_ihatexml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_inputstream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_trie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_trie/_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_trie/py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/alphabeticalattributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/inject_meta_charset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/lint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/optionaltags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/sanitizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/filters/whitespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/html5parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treeadapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treeadapters/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treeadapters/sax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treebuilders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treebuilders/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treebuilders/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treebuilders/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/html5lib/treewalkers/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings-0.5.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings/labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings/mklabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/webencodings/x_user_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Scripts/fanficfare-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Scripts/fanficfare.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Scripts/fanficfare.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyenv.cfg/Scripts/html2text.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ao3_fic.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ao3_fic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/downloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ffn_fic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fic.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/pyenv.cfg/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyenv.cfg/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +276,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fanficfare_downloader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fanficfare_downloader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fanficfare_downloader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -66,11 +315,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ao3_fic.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ao3_fic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ao3_fic.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +344,11 @@
         <option value="$PROJECT_DIR$/src/.gitignore" />
         <option value="$PROJECT_DIR$/src/fic.py" />
         <option value="$PROJECT_DIR$/src/password.py" />
-        <option value="$PROJECT_DIR$/src/ao3_fic.py" />
         <option value="$PROJECT_DIR$/src/ffn_fic.py" />
         <option value="$PROJECT_DIR$/src/epub2mobi.py" />
         <option value="$PROJECT_DIR$/src/downloader.py" />
         <option value="$PROJECT_DIR$/src/fanficfare_downloader.py" />
+        <option value="$PROJECT_DIR$/src/ao3_fic.py" />
       </list>
     </option>
   </component>
@@ -239,14 +490,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20588236" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20588236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.48856208" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -302,6 +552,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/os/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -416,24 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ao3_fic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/epub2mobi.py" />
-    <entry file="file://$PROJECT_DIR$/src/ffn_fic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/pyenv.cfg/Lib/site-packages/fanficfare/writers/writer_mobi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -471,6 +700,32 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ffn_fic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ao3_fic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
