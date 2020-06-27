@@ -2,13 +2,13 @@ import os
 import smtplib
 from email import encoders
 from email.mime import multipart, base
-
+from fanficfare import cli
 import password
-import fanficfare_downloader
+
 
 def send_fic(url : str, email_address : str, password : str, kindle_email):
     port = 587
-    fic_filename = fanficfare_downloader.download_mobi_and_get_file_name(url)
+    fic_filename = download_mobi_and_get_file_name(url)
     email = smtplib.SMTP('smtp.gmail.com', port)
     email.ehlo()
     email.starttls()
@@ -30,6 +30,12 @@ def send_fic(url : str, email_address : str, password : str, kindle_email):
     attachment.close()
     os.remove(fic_filename)
 
+def download_mobi_and_get_file_name(url : str):
+    cli.main(argv= ["-f", "mobi", url])
+    files = os.listdir(os.curdir)
+    for file in files:
+        if file[-5:] == '.mobi':
+            return file
 
 send_fic('https://archiveofourown.org/works/746517', password.my_email, password.password, password.kindle_email)
 
