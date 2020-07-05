@@ -9,6 +9,7 @@ import password
 def send_fic(url : str, email_address : str, password : str, kindle_email):
     port = 587
     fic_filename = download_mobi_and_get_file_name(url)
+    print('downloaded!')
     email = smtplib.SMTP('smtp.gmail.com', port)
     email.ehlo()
     email.starttls()
@@ -32,11 +33,12 @@ def send_fic(url : str, email_address : str, password : str, kindle_email):
 
 def download_mobi_and_get_file_name(url : str):
     cli.main(argv= ["-f", "mobi", url])
+    print("done!")
     files = os.listdir(os.curdir)
     for file in files:
         if file[-5:] == '.mobi':
             return file
 
-send_fic('https://archiveofourown.org/works/746517', password.my_email, password.password, password.kindle_email)
+send_fic('https://www.fanfiction.net/s/5750868/', password.my_email, password.password, password.kindle_email)
 
 
