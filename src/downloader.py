@@ -39,6 +39,6 @@ def download_mobi_and_get_file_name(url : str):
         if file[-5:] == '.mobi':
             return file
 
-send_fic('https://www.fanfiction.net/s/5750868/', password.my_email, password.password, password.kindle_email)
+# send_fic('https://www.fanfiction.net/s/5750868/', password.my_email, password.password, password.kindle_email)
 
 
