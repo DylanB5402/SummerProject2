@@ -1,0 +1,2 @@
+set solib-search-path /home/dylan/Documents/Projects/SummerProject2/src/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a
+directory /home/dylan/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot /home/dylan/Documents/Projects/SummerProject2/src/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/jni/.. /home/dylan/.buildozer/android/platform/android-ndk-r19c/sources/cxx-stl/system

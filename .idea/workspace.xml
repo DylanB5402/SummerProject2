@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5b7529-ea89-4eed-bc77-c4909ac9bbcb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pong/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pong/pong.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/download_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/downloader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +23,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="56" />
-    <option name="y" value="-13" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1eNqCQcpb16qi22lUXeaIY2HaPM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,33 +40,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\dbarv\PycharmProjects\SummerProject2\src\pong" />
       <recent name="C:\Users\dbarv\PycharmProjects\SummerProject2\src" />
       <recent name="C:\Users\dbarv\PycharmProjects\SummerProject2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.download_app">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SummerProject2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\dbarv\PycharmProjects\SummerProject2\src\download_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.downloader">
     <configuration name="download_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SummerProject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +59,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/download_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SummerProject2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,19 +175,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.download_app" />
       <item itemvalue="Python.password" />
       <item itemvalue="Python.kivy_button" />
       <item itemvalue="Python.lambda_fun" />
+      <item itemvalue="Python.downloader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.downloader" />
         <item itemvalue="Python.download_app" />
         <item itemvalue="Python.lambda_fun" />
         <item itemvalue="Python.kivy_button" />
         <item itemvalue="Python.password" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -204,25 +205,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1441" height="204" key="GridCell.Tab.0.bottom" timestamp="1594177059168">
+    <state width="1441" height="159" key="GridCell.Tab.0.bottom" timestamp="1594757760838">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="204" key="GridCell.Tab.0.bottom/72.27.1464.837@72.27.1464.837" timestamp="1594177059168" />
-    <state width="1441" height="204" key="GridCell.Tab.0.center" timestamp="1594177059167">
+    <state width="1441" height="159" key="GridCell.Tab.0.bottom/72.27.1464.837@72.27.1464.837" timestamp="1594757760838" />
+    <state width="1441" height="159" key="GridCell.Tab.0.center" timestamp="1594757760838">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="204" key="GridCell.Tab.0.center/72.27.1464.837@72.27.1464.837" timestamp="1594177059167" />
-    <state width="1441" height="204" key="GridCell.Tab.0.left" timestamp="1594177059166">
+    <state width="1441" height="159" key="GridCell.Tab.0.center/72.27.1464.837@72.27.1464.837" timestamp="1594757760838" />
+    <state width="1441" height="159" key="GridCell.Tab.0.left" timestamp="1594757760837">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="204" key="GridCell.Tab.0.left/72.27.1464.837@72.27.1464.837" timestamp="1594177059166" />
-    <state width="1441" height="204" key="GridCell.Tab.0.right" timestamp="1594177059167">
+    <state width="1441" height="159" key="GridCell.Tab.0.left/72.27.1464.837@72.27.1464.837" timestamp="1594757760837" />
+    <state width="1441" height="159" key="GridCell.Tab.0.right" timestamp="1594757760838">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="204" key="GridCell.Tab.0.right/72.27.1464.837@72.27.1464.837" timestamp="1594177059167" />
-    <state x="296" y="81" width="1016" height="742" key="SettingsEditor" timestamp="1594172298221">
+    <state width="1441" height="159" key="GridCell.Tab.0.right/72.27.1464.837@72.27.1464.837" timestamp="1594757760838" />
+    <state x="296" y="66" width="1016" height="742" key="SettingsEditor" timestamp="1594508087226">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state x="296" y="81" width="1016" height="742" key="SettingsEditor/72.27.1464.837@72.27.1464.837" timestamp="1594172298221" />
+    <state x="296" y="66" width="1016" height="742" key="SettingsEditor/72.27.1464.837@72.27.1464.837" timestamp="1594508087226" />
   </component>
 </project>
