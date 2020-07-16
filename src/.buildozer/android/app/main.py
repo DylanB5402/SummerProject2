@@ -48,31 +48,40 @@ class SendButton(Button):
     def __init__(self):
         super().__init__()
         self.text = 'Send'
-        self.size_hint = (1, 0.3)
+        self.size_hint = (0.7, 1)
         self.font_size = desired_font_size
 
     def on_press(self):
         fanfic_url = App.get_running_app().url_box.text
-        # fanfic_url = 'https://archiveofourown.org/works/746517'
-        # destination_email = App.get_running_app().destination_box.text
-        # print(fanfic_url, destination_email)
         self.text = 'URL Received!'
         downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
         self.text = 'Fanfic Sent!'
 
 
+class ResetButton(Button):
+
+    def __init__(self):
+        super().__init__()
+        self.text = 'Reset'
+        self.size_hint = (0.3, 1)
+        self.font_size = desired_font_size
+
 class DownloadApp(App):
 
     url_box = URLTextbox()
     button = SendButton()
-    # destination_box = DestinationEmailTextbox()
+    reset_button = ResetButton()
 
     def build(self):
         os.environ['SSL_CERT_FILE'] = certifi.where()
         layout = BoxLayout(orientation = 'vertical')
         layout.add_widget(self.url_box)
-        # layout.add_widget(self.destination_box)
-        layout.add_widget(self.button)
+        inner_layout = BoxLayout(orientation = 'horizontal')
+        inner_layout.size_hint = (1, 0.3)
+        inner_layout.add_widget(self.button)
+        inner_layout.add_widget(self.reset_button)
+        layout.add_widget(inner_layout)
+        layout.add_widget(Widget(size_hint = (1, 0.5)))
         return layout
 
 
