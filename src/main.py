@@ -8,6 +8,7 @@ from kivy.uix.label import Label
 
 import os
 import certifi
+import time
 
 import downloader
 import password
@@ -54,10 +55,14 @@ class SendButton(Button):
         self.font_size = desired_font_size
 
     def on_press(self):
+        app = App.get_running_app()
+        app.progress_label.text = 'URL Received!'
         fanfic_url = App.get_running_app().url_box.text
-        App.get_running_app().progress_label.text = 'URL Received!'
-        downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
-        App.get_running_app().progress_label.text = 'Fanfic Sent!'
+        try:
+            downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
+            app.progress_label.text = 'Fanfic Sent!'
+        except:
+            app.progress_label.text = "Invalid URL"
 
 
 class ResetButton(Button):
@@ -77,7 +82,7 @@ class ProgressLabel(Label):
 
     def __init__(self):
         super().__init__()
-        self.text = ''
+        self.text = '---'
         self.font_size = desired_font_size
 
 

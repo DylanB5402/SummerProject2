@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5b7529-ea89-4eed-bc77-c4909ac9bbcb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.buildozer/android/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/.buildozer/android/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.buildozer/android/platform/build-armeabi-v7a/dists/myapp__armeabi-v7a/src/main/assets/private.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/src/.buildozer/android/platform/build-armeabi-v7a/dists/myapp__armeabi-v7a/src/main/assets/private.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.buildozer/android/platform/build-armeabi-v7a/dists/myapp__armeabi-v7a/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.buildozer/android/platform/build-armeabi-v7a/dists/myapp__armeabi-v7a/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.buildozer/state.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/.buildozer/state.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/myapp-0.1-armeabi-v7a-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/myapp-0.1-armeabi-v7a-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/downloader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,22 +203,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1441" height="241" key="GridCell.Tab.0.bottom" timestamp="1594866257475">
+    <state width="1441" height="241" key="GridCell.Tab.0.bottom" timestamp="1595210618054">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="241" key="GridCell.Tab.0.bottom/72.27.1464.837@72.27.1464.837" timestamp="1594866257475" />
-    <state width="1441" height="241" key="GridCell.Tab.0.center" timestamp="1594866257475">
+    <state width="1441" height="241" key="GridCell.Tab.0.bottom/72.27.1464.837@72.27.1464.837" timestamp="1595210618054" />
+    <state width="1441" height="241" key="GridCell.Tab.0.center" timestamp="1595210618053">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="241" key="GridCell.Tab.0.center/72.27.1464.837@72.27.1464.837" timestamp="1594866257475" />
-    <state width="1441" height="241" key="GridCell.Tab.0.left" timestamp="1594866257475">
+    <state width="1441" height="241" key="GridCell.Tab.0.center/72.27.1464.837@72.27.1464.837" timestamp="1595210618053" />
+    <state width="1441" height="241" key="GridCell.Tab.0.left" timestamp="1595210618053">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="241" key="GridCell.Tab.0.left/72.27.1464.837@72.27.1464.837" timestamp="1594866257475" />
-    <state width="1441" height="241" key="GridCell.Tab.0.right" timestamp="1594866257475">
+    <state width="1441" height="241" key="GridCell.Tab.0.left/72.27.1464.837@72.27.1464.837" timestamp="1595210618053" />
+    <state width="1441" height="241" key="GridCell.Tab.0.right" timestamp="1595210618054">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
-    <state width="1441" height="241" key="GridCell.Tab.0.right/72.27.1464.837@72.27.1464.837" timestamp="1594866257475" />
+    <state width="1441" height="241" key="GridCell.Tab.0.right/72.27.1464.837@72.27.1464.837" timestamp="1595210618054" />
     <state x="296" y="66" width="1016" height="742" key="SettingsEditor" timestamp="1594508087226">
       <screen x="72" y="27" width="1464" height="837" />
     </state>
