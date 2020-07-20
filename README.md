@@ -1,8 +1,8 @@
 SummerProject2
 
-An Android app for downloading fanfiction from various sites and sending them directly to a Kindle device written in Python using [Kivy](https://kivy.org/). The backend uses [FanFicFare](https://github.com/JimmXinu/FanFicFare) and fiction from any site supported by FanFicFare can be downloaed. In order to use, create a file named password.py with the following contents and add it to the src directory. 
+An Android app for downloading fanfiction from various sites and sending them directly to a Kindle device written in Python using [Kivy](https://kivy.org/). The backend uses [FanFicFare](https://github.com/JimmXinu/FanFicFare) and fiction from any site supported by FanFicFare can be downloaed. Mobi files are sent over email using SMTP. Note that the .apk in the bin directory is configured to send Mobi files from my personal email to my personal kindle email address. In order to use the app for yourself, create a file named password.py with the following contents and add it to the src directory. 
 
-```python
+```python 
 my_email = ""
 #email to send the mobi file using
 password = ""
