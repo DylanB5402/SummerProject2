@@ -1,1 +1,8 @@
 beautifulsoup4
+certifi
+chardet
+fanficfare
+html2text
+html5lib
+soupsieve
+webencodings

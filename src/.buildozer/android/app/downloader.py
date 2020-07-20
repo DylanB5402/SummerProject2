@@ -27,6 +27,7 @@ def send_fic(url : str, email_address : str, password : str, kindle_email):
     msg.attach(p)
     text = msg.as_string()
     email.sendmail(email_address, kindle_email, text)
+    print('sent!')
     email.quit()
     attachment.close()
     os.remove(fic_filename)
@@ -45,5 +46,6 @@ def https_to_http(url : str):
     url = url[0:4] + url [5:]
     return url
 
+# send_fic('https://www.fanfiction.net/s/5753454/1/Interstitium', password.my_email, password.password, password.kindle_email)
 
 

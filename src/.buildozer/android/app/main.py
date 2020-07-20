@@ -3,9 +3,12 @@ from kivy.uix.widget import Widget
 from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
+from kivy.graphics import Color
+from kivy.uix.label import Label
 
 import os
 import certifi
+import time
 
 import downloader
 import password
@@ -52,10 +55,17 @@ class SendButton(Button):
         self.font_size = desired_font_size
 
     def on_press(self):
+        App.get_running_app().progress_label.text = 'URL Received! Download in Progress'
+
+
+    def on_release(self):
         fanfic_url = App.get_running_app().url_box.text
-        self.text = 'URL Received!'
-        downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
-        self.text = 'Fanfic Sent!'
+        try:
+            downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
+            App.get_running_app().progress_label.text = 'Fanfic Sent!'
+        except:
+            App.get_running_app().progress_label.text = "Invalid URL"
+
 
 
 class ResetButton(Button):
@@ -66,11 +76,26 @@ class ResetButton(Button):
         self.size_hint = (0.3, 1)
         self.font_size = desired_font_size
 
+    def on_press(self):
+        App.get_running_app().url_box.text = ''
+        App.get_running_app().progress_label.text = ''
+
+
+class ProgressLabel(Label):
+
+    def __init__(self):
+        super().__init__()
+        self.text = '---'
+        self.font_size = desired_font_size
+
+
+
 class DownloadApp(App):
 
     url_box = URLTextbox()
     button = SendButton()
     reset_button = ResetButton()
+    progress_label = ProgressLabel()
 
     def build(self):
         os.environ['SSL_CERT_FILE'] = certifi.where()
@@ -81,7 +106,7 @@ class DownloadApp(App):
         inner_layout.add_widget(self.button)
         inner_layout.add_widget(self.reset_button)
         layout.add_widget(inner_layout)
-        layout.add_widget(Widget(size_hint = (1, 0.5)))
+        layout.add_widget(self.progress_label)
         return layout
 
 

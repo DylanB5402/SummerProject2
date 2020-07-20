@@ -55,14 +55,17 @@ class SendButton(Button):
         self.font_size = desired_font_size
 
     def on_press(self):
-        app = App.get_running_app()
-        app.progress_label.text = 'URL Received!'
+        App.get_running_app().progress_label.text = 'URL Received! Download in Progress'
+
+
+    def on_release(self):
         fanfic_url = App.get_running_app().url_box.text
         try:
             downloader.send_fic(fanfic_url, password.my_email, password.password, password.kindle_email)
-            app.progress_label.text = 'Fanfic Sent!'
+            App.get_running_app().progress_label.text = 'Fanfic Sent!'
         except:
-            app.progress_label.text = "Invalid URL"
+            App.get_running_app().progress_label.text = "Invalid URL"
+
 
 
 class ResetButton(Button):
@@ -84,6 +87,7 @@ class ProgressLabel(Label):
         super().__init__()
         self.text = '---'
         self.font_size = desired_font_size
+
 
 
 class DownloadApp(App):
